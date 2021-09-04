@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,47 @@
     <title>Document</title>
 
 </head>
+
 <body>
+    <!-- Calculator & Results -->
+    <section>
+        <div class="row py-5 text-centre">
+            <div class="col">
+                <h2 class="display-5 fw-bold">Savings Title
+                </h2>
+            </div>
+            <form class="px-4 py-5" id="current-form">
+                <div class="row mb-3 col-12">
+                    <label id="saving-held">
+                        Savings Held
+                    </label>
+                    <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
+                </div>
+                <div class="row mb-3 col-12">
+
+                    <label>
+                        Current Interest rate (%)
+                    </label>
+                    <input type="number" step="0.01" class="form-control" id="current-rate" placeholder="0.01"
+                        required="">
+                    <div class="row mb-3 col-12">
+                        <label>
+                            Type of Savings Account
+                        </label>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="savings-type" aria-label="Example select with button addon"
+                                required="">
+                                <option value="Instant">Instant Access Account</option>
+                                <option value="Regular">Monthly Regular Savings</option>
+                                <option value="Fixed">Fixed term Account</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" id="calculate-button" class="btn btn-primary"
+                        onclick="return updateHTMLInterestResults(interestCalculations)">Calculate</button>
+            </form>
+        </div>
+    </section>
 
     <script src="assets/js/script.js"></script>
 </body>
