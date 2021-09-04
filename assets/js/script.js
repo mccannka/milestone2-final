@@ -1,39 +1,41 @@
 /*
 Wait for DOM to finish loading before running calculation 
 */
+$(document).ready(function () {
+    // attach the event listener
+    $('#current-form').on('submit', function (event) {
+        // runs when form is submitted
+        // stop the default action from happening (page reloading)
+        event.preventDefault()
+
+    });
+})
+
 
 /*
-Align button elements & event listeners 
+Create Loop 
 */
 
-/*
-Array of competitor rates 
+function getProviderCalculations("current-rate","savings-type") {
+
+    document.getElementById("current-rate").value = "";
+    document.getElementById("savings-type").focus();
+
+};
+/* 
+Instant Access 
 */
+if (savings-type ==='Instant')
+const bestRate = 0.40;
 
-            let competitorRates = [{
-                    Competitor: 'Ulster Bank',
-                    Instant: '0.10',
-                    Fixed: '1.50',
-                    Regular: '0.25'
-                },
-                {
-                    Competitor: 'Danske Bank',
-                    Instant: '0.10',
-                    Fixed: '1.00',
-                    Regular: '0.30'
-                },
-                {
-                    Competitor: 'Santander',
-                    Instant: '0.40',
-                    Fixed: '0.90',
-                    Regular: '0.50'
-                },
-                {
-                    Competitor: 'AIB',
-                    Instant: '0.01',
-                    Fixed: '0.50',
-                    Regular: '0.10'
-                }
-            ];
-
-            console.log(competitorRates)
+if (current-rate >= bestRate) 
+if (true) {
+    let mymessageTrue = "Nope youve got the best rate"; 
+    console.log(mymessageTrue);
+}
+if (current-rate >= bestRate) 
+if (false) {
+    let mymessageFalse = "Yay we have a better rate"; 
+    console.log(mymessageTrue);
+}; 
+=
