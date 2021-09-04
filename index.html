@@ -24,32 +24,29 @@
                 <h2 class="display-5 fw-bold">Savings Title
                 </h2>
             </div>
-            <form class="px-4 py-5" id="current-form">
+            <form class="px-4 py-5" id="rate-form" action="" method="POST">
                 <div class="row mb-3 col-12">
                     <label id="saving-held">
                         Savings Held
                     </label>
                     <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
                 </div>
-                <div class="row mb-3 col-12">
-
-                    <label>
+                <div class="rate" class="mb-3 col-12">
+                    <label for="rate">
                         Current Interest rate (%)
-                    </label>
-                    <input type="number" step="0.01" class="form-control" id="current-rate" placeholder="0.01"
+                    <input type="number" step="0.01" class="form-control" id="rate" placeholder="0.01"
                         required="">
-                    <div class="row mb-3 col-12">
-                        <label>
+                    </label>
+                    <div class = "type" class="row mb-3 col-12">
+                        <label for ="type">
                             Type of Savings Account
-                        </label>
-                        <div class="input-group mb-3">
-                            <select class="form-select" id="savings-type" aria-label="Example select with button addon"
+                            <select class="form-select" id="type" aria-label="Example select with button addon"
                                 required="">
                                 <option value="Instant">Instant Access Account</option>
                                 <option value="Regular">Monthly Regular Savings</option>
                                 <option value="Fixed">Fixed term Account</option>
                             </select>
-                        </div>
+                        </label>
                     </div>
                     <button type="submit" id="calculate-button" class="btn btn-primary">Calculate</button>
             </form>
