@@ -1,7 +1,26 @@
 
 // Capturing form submission
 
-let rateForm = document.getElementById('rate-form');
+$(document).ready(function () {
+    // attach the event listener
+    $('#calculator').on('submit', function (event) {
+        // runs when form is submitted
+        // stop the default action from happening (page reloading)
+        event.preventDefault()
+    });
+})
+ 
+//Obtain inputs to fields 
+const savingsHeld = document.getElementById ("saving-held");
+const currentRate = document.getElementById ("rate-input");
+const savingsType = document.getElementById ("type");
+
+// If savingsType selected was instant access  
+
+
+
+
+let rateForm = document.getElementById('calculator');
 rateForm.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
