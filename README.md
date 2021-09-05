@@ -39,11 +39,18 @@ This is a single page application being protyped to understand if there is suffi
 
 Below are the wireframes completed to undertand the design of the single page across both desktop and mobile devices. Key was to ensure that the main information was accessible, irrespective of the device being used.
 
-Desktop Design
-Mobile Design
+<br>
+<br>
+<a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/desktop-wireframe.png">Desktop Design</a>
+<br>
+<a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/mobile-wireframe.png">Mobile Design</a>
+<br>
+<a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/tablet-wireframe.png">Tablet Design</a>
+<br>
 
 In designing the single page I was keen that it protrayed both a professional and progressive business, therefore I needed both the colour scheme and imagery to reflect that. Using coolors.co enabled me to select a neutral colour scheme and inturn design a brand logo which reflected that.
-Website Colour Scheme
+<br>
+<a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/website-colours.png">Website Colour Scheme</a>
 
 ## User Stories 
 
