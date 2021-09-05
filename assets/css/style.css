@@ -1,6 +1,22 @@
 
+/* Nav Bar Styling */
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #213C47;
+}
+
+.nav-pills .pill-2 .nav-link {
+    background-color: #bdb975;
+    color: #fff;
+}
+
+.nav-pills .pill-3 .nav-link {
+    background-color: #688B99;
+    color: #fff;
+}
+
 #hero {
     background-image: url("../images/collection-of-money-hero.jpg");
     background-size: cover;
 }
-
