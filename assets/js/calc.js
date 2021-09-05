@@ -1,4 +1,3 @@
-
 // Capturing form submission
 
 $(document).ready(function () {
@@ -15,20 +14,22 @@ let savingsHeld = document.getElementById ("saving-held");
 let currentRate = document.getElementById ("rate-input");
 let savingsType = document.getElementById ("type");
 
-// If savingsType selected was instant access  
+// Determine which rates customer wants 
 
-function getRates(){
+function accountType(){
 
     if (savingsType =="Instant") 
-    {getRates = instantAccess;
+    {accountType = instantAccess;
 
     } else if (savingsType == "Regular")
-    {getRates = regularAccess; 
+    {accountType = regularAccess; 
     
     } else if (savingsType == "Fixed")
-    {getRates = fixedAccess;
+    {accountType = fixedAccess;
     }
 }
 
-console.log("Instant", "Regular", "Fixed")
+console.log("accountType")
 
+
+// Get results for each competitor  
