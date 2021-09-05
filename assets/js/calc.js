@@ -5,9 +5,9 @@ $(document).ready(function () {
     $('#calculator').on('submit', function (event) {
         // runs when form is submitted
         // stop the default action from happening (page reloading)
-        event.preventDefault()
+        event.preventDefault();
     });
-})
+}); 
  
 //Obtain inputs to fields 
 let savingsHeld = document.getElementById ("saving-held");
@@ -29,7 +29,7 @@ function accountType(){
     }
 }
 
-console.log("accountType")
+console.log("accountType");
 
 
 // Get results for each competitor  
