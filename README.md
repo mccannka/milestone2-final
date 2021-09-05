@@ -10,28 +10,12 @@ Also it will aim  to educate consumers on saving, the benefits and the alternati
 
 ## Index
 
-1. [UX](#ux)
-    * [User Stories](#user-stories)
-    * [Strategy](#strategy)
-    * [Scope](#scope)
-    * [Structure](#structure)
-    * [Skeleton](#skeleton)
-    * [Surface](#surface)
-1. [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Features for Future Implementation](#features-for-future-implementation)
-1. [Testing](#testing)
-1. [Development Life Cycle](#development-life-cycle)
-1. [Deployment](#deployment)
-    * [Via GitPod](#deployment-of-the-page)
-    * [Cloning Locally](#how-to-run-the-code-locally)
-1. [Technologies Used](#technologies-used)
-1. [Credits](#credits)
-    * [Website](#website-credits)
-    * [README](#readme-credits)
-
-Note, testing information can be found in a separate document:
-* [Testing](TESTING.md)
+1. [UX](##ux)
+    * [User Stories](##user-stories)
+    * [Strategy](##strategy)
+1. [Features for Future Implementation](##features-for-future-implementation)
+1. [Testing & Deployment](##testing-&-deployment)
+1. [Credits](##credits)
 
 ## UX 
 
@@ -68,7 +52,8 @@ The website is for individuals who have savings, or who are thinking about savin
 
 If this prototype was a success the next phase would include adding game funcionality aimed at teenagers to encourage saving behaviours.
 
-## Scope
+## Features for future implementation
+
 
 ## Testing & Deployment 
 
@@ -125,26 +110,6 @@ The project was deployed to GitHub Pages using the following steps...
 4) Under "Source", click the dropdown called "None" and select "Master Branch".
 5) The page will automatically refresh.
 6) Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-
-Retrospectively reviewing the commits made via Gitpod, these should have been more detailed, see the proposed commit titles:
-
-| Commit Name                                | Proposed Name                                            | 
-| :----------------------------------------- | :------------------------------------------------------: | 
-| Further updates to HTML & CSS              | Deletion of additional Readme file                       | 
-| Updates to html & CSS                      | Logo creation, Readme file updates & Styling updates     | 
-| Add files via upload.                      | Wireframes - mobile                                      | 
-| Add files via upload.                      | Wireframes - desktop                                     | 
-| Initial Readme file updates.               | Initial Readme file updates.                             | 
-| Add files via upload.                      | Coolors - website colour scheme                          | 
-| Add files via upload.                      | Google lighthouse output                                 | 
-| Final HTML & CSS Updates.                  | Updates to Readme file, form fields & footer styling     | 
-| Amends to Readme.                          | Readme - UX & testing updates.                           | 
-| CSS, HTML & README file updates            | Readme tutor support updates & form field updat          | 
-| Final HTML & CSS changes                   | CSS annotations & html footer updates (social links)     | 
-| Final commits.                             | Readme lighthouse updates & Pricing section updates      | 
-| Image Updates                              | Navbar updates.                                          | 
-
-In addition commits should be more frequent to enable detailed tracking of changes.
 
 ## Credits 
 
