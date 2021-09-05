@@ -80,26 +80,4 @@ for (let index in providers) {
     }
 }
 return [biggestProvider, biggestRate];
-
-
-/* Competitor Rates */
-const providers = [
-    {
-        "Name": "AIB",
-        "Instant": 0.20, // Percentage amounts e.g. 0.01 (to means 0.01%)
-        "Regular": 1.50,
-        "Fixed": 1.20,
-    },
-    {
-        "Name": "Ulster Bank",
-        "Instant": 0.40,
-        "Regular": 0.60,
-        "Fixed": 1.00,
-    },
-    {
-        "Name": "Danske Bank",
-        "Instant": 0.15,
-        "Regular": 0.50,
-        "Fixed": 0.70,
-    },
-]
+}
