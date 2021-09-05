@@ -20,7 +20,7 @@
             <div class="col">
                 <h2 class="display-5 fw-bold">Interested in Saving?</h2>
                 <div id="existing-savings">
-                    <label for="existing-savings">
+                    <label for="existing">
                         Current savings?
                     </label>
                     <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
@@ -28,7 +28,7 @@
                         <label for="rate">
                             How much do you currently earn on your savings (%)?
                         </label>
-                        <input type="decimal" class="form-control" id="rate" placeholder="0.01" required="">
+                        <input type="number" class="form-control" id="rate" placeholder="0.01" required="">
                         <label for="type">
                             How long do you want to save for?
                         </label>
@@ -46,32 +46,70 @@
             </div>
         </div>
     </section>
-
     <!--Results / Customer Output Area-->
     <section>
-        <div id= "calculator-results">
-        <h1>
-            The latest rates:
-        </h1>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <td id>
-
-                        </td>
-                    </td>
-                    <tr>
-
-                    </tr>
-                </tr>
-            </tbody>
-        </table>
-</div>
+        <div id="calculator-results">
+            <h1>
+                The latest rates:
+            </h1>
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Bank</th>
+                    <th scope="col">Current Rates</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Ulster Bank</th>
+                    <td>TBA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Santander</th>
+                    <td>TBA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Danske Bank</th>
+                    <td colspan="2">TBA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AIB</th>
+                    <td colspan="2">TBA</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
     </section>
+    <!--Investing -->
+    <section id = "Investing">
+
+    </section>
+    <footer id="final" class="footer mt-auto py-3">
+        <ul class="list-inline social-links">
+           <li class="list-inline-item">
+              <a target="_blank" href="https://en-gb.facebook.com/" rel="noreferrer">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+              </a>
+           </li>
+           <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com/?lang=en-gb" rel="noreferrer">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+              </a>
+           </li>
+           <li class="list-inline-item">
+              <a target="_blank" href="https://uk.linkedin.com/" rel="noreferrer">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+              </a>
+           </li>
+        </ul>
+     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/js/calc.js"></script>
+    <script src="assets/js/selectrates.js"></script>
 </body>
 
 </html>

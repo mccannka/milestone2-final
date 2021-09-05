@@ -11,12 +11,26 @@ $(document).ready(function () {
 })
  
 //Obtain inputs to fields 
-const savingsHeld = document.getElementById ("saving-held");
-const currentRate = document.getElementById ("rate-input");
-const savingsType = document.getElementById ("type");
+let savingsHeld = document.getElementById ("saving-held");
+let currentRate = document.getElementById ("rate-input");
+let savingsType = document.getElementById ("type");
 
 // If savingsType selected was instant access  
 
+function getRates(){
+
+    if (savingsType =="Instant") 
+    {getRates = instantAccess;
+
+    } else if (savingsType == "Regular")
+    {getRates = regularAccess; 
+    
+    } else if (savingsType == "Fixed")
+    {getRates = fixedAccess;
+    }
+}
+
+console.log("Instant", "Regular", "Fixed")
 
 
 
