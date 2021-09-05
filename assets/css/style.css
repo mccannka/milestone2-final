@@ -17,6 +17,8 @@
 }
 
 #hero {
-    background-image: url("../images/collection-of-money-hero.jpg");
-    background-size: cover;
+    color: #213C47;
+    text-align: center;
 }
+
+.section {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
