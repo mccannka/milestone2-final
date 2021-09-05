@@ -138,10 +138,52 @@
     </section>
     </section>
     <!--Contact Us -->
-    <section id="contact-us">
-
+    <section id="contact-us" class="pb-5">
+        <div class="container text-center">
+            <div class="row text-center py-5">
+               <div class="col">
+                  <h2 class="display-5 fw-bold orange-color">Want to speak to someone?</h2>
+               </div>
+            </div>
+            <div class="row text-center pb-4">
+               <div class="col-12">
+                  <h5>We're a volunteer led network, please submit your details below and we will get in touch.
+                  </h5>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12 col-md-6">
+                  <form action="mailto:mccannkellyanne@gmail.com" method="POST" enctype="multipart/form-data">
+                     <div class="row mb-3">
+                        <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                           <input type="text" class="form-control" id="Name">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="Email" class="col-sm-2 col-form-label">Email address</label>
+                        <div class="col-sm-10">
+                           <input type="email" class="form-control" id="Email">
+                        </div>
+                     </div>
+                     <button type="submit" class="btn btn-lg">Contact me</button>
+                  </form>
+                  <br>
+               </div>
+               <div class="col-md-6">
+                  <iframe title="How to find us"
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4668.57889166527!2d-6.141783522502823!3d54.19265889770077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860df4d02b3a405%3A0x65f0a6406e03d9f5!2sNewry%20BT34%205WF!5e0!3m2!1sen!2suk!4v1616455315777!5m2!1sen!2suk"
+                     style="border:4px;" loading="lazy">
+                  </iframe>
+               </div>
+            </div>
+         </div>
     </section>
-    <footer id="final" class="footer mt-auto py-3">
+    <div id="footer" class="container-fluid">
+        <footer id="final" class="footer mt-2 py-3">
+        <div class = "row">
+            <div class="row m-3">
+                <div class="col-5">
         <ul class="list-inline social-links">
             <li class="list-inline-item">
                 <a target="_blank" href="https://en-gb.facebook.com/" rel="noreferrer">
@@ -162,8 +204,16 @@
                 </a>
             </li>
         </ul>
+
+    </div>
+                </div>
+        </div>
+    </div>
+</div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/js/calc.js"></script>
 </body>

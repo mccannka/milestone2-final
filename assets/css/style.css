@@ -49,3 +49,25 @@
 .table .header {
     background-color: #bdb975;
 }
+
+
+/* styling for contactus option */
+
+.btn-lg {background-color: #bdb975;
+    border: #F0EFEB;
+    color: #fff;
+    margin-top: 2em;}
+
+/* styling for bootstrap footer */
+#final {
+    background-color: #213C47;
+    color: #fff;
+    margin-bottom: 1em;
+  }
+
+
+/* styling for bootstrap social media icons */
+
+.fa-linkedin {color: white;}
+.fa-twitter {color: white;}
+.fa-facebook {color: white;}
