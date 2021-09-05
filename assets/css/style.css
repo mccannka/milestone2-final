@@ -1,3 +1,9 @@
+/* Hero Styling */
+
+#hero { 
+    margin-bottom: -2em;
+}
+
 /* Nav Bar Styling */
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -15,12 +21,6 @@
     color: #fff;
 }
 
-/* Hero Styling */
-#hero {
-    color: #213C47;
-    text-align: center;
-}
-
 .section {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 /* Intro Shelf Styling */
@@ -28,4 +28,24 @@
 #intro {
     color: #fff;
     background-color: #688B99 ;
+}
+
+/* Calculator shelf Styling */
+
+#calculate {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-btn {background-color: #bdb975;
+    border: #F0EFEB;
+    color: #fff;
+    margin-top: 2em;}
+
+.table {
+    text-align: center;
+}
+
+.table .header {
+    background-color: #bdb975;
 }

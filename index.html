@@ -32,14 +32,14 @@
     </nav>
     <!-- Hero -->
     <section id="hero">
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-2 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="assets/images/collection-of-money-hero.jpg" class="d-block mx-lg-auto img-fluid"
-                        alt="Saving for your future" width="700" height="500" loading="lazy">
+                        alt="Saving for your future" width="600" height="400" loading="lazy" class="centre">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Saving today for a better future tomorrow</h1>
+                    <h1 class="display-5 fw-bold lh-1">Saving today for a better future tomorrow</h1>
                     <p class="lead">We regularly check market rates, making it quicker for you to do the sums!</p>
                 </div>
             </div>
@@ -49,86 +49,87 @@
     <section id="intro">
         <div class="container-xxl px-4 py-2">
             <h1></h1>
-            <p>9% of residents in Northern Ireland have £100 or less in savings.  Whether you're a saver or thinkig about saving you've come to the
-                right place.  
+            <p>9% of residents in Northern Ireland have £100 or less in savings. Whether you're a saver or thinkig about
+                saving you've come to the
+                right place.
             </p>
-                <p>Better Future Organisation are a not for profit, aimed at providing you with independant supports to help make the right 
-                decisions.  Whether you put a little or alot away each month, we want to makesure your savings are making you as much money as possible.
+            <p>Better Future Organisation are a not for profit, aimed at providing you with independant supports to help
+                make the right
+                decisions. Whether you put a little or alot away each month, we want to makesure your savings are making
+                you as much money as possible.
                 We search the local market daily and provide the latest rates, making it easier for you to shop around.
             </p>
             <p>
-                We'll signpost other ways you can look to earn more on your savings - with interest rates remaining low, we look at alternative options that
+                We'll signpost other ways you can look to earn more on your savings - with interest rates remaining low,
+                we look at alternative options that
                 you might not be aware of.
             </p>
         </div>
-
     </section>
     <!-- Calculator & Results -->
     <section id="calculate">
-        <div class="row text-centre col-12 col-md-4 container text-center" id=calculator>
-            <img src="" class="img-thumbnail" alt="Businesses engaging for a quote">
-        </div>
-        <div class="col">
-            <h2 class="display-5 fw-bold">Interested in Saving?</h2>
-            <div id="existing-savings">
-                <label for="existing">
-                    Current savings?
-                </label>
-                <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
-                <div id="current-rates">
-                    <label for="rate">
-                        How much do you currently earn on your savings (%)?
-                    </label>
-                    <input type="number" class="form-control" id="rate" placeholder="0.01" required="">
-                    <label for="type">
-                        How long do you want to save for?
-                    </label>
-                    <div class="typerow mb-3 col-12">
-                        <select class="form-select" id="type" aria-label="Example select with button addon" required=""
-                            size="1">
-                            <option value="Instant">I need immediate access to my savings</option>
-                            <option value="Regular">Happy to invest for over 30 days</option>
-                            <option value="Fixed">Happy to invest for less than a year</option>
-                        </select>
+        <div class="container-xxl py-4">
+            <div class="row p-3">
+                <div class="row m-3">
+                    <h2>Calculate the rate available</h2>
+                    <div class="col-5">
+                        <p>Answer the 3 questions below, then we'll search the market for similar products available</p>
+                        <label for="existing"><b>Amount of savings
+                            </b>
+                        </label>
+                        <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
+                        <div id="current-rates">
+                            <label for="rate"><b>
+                                Current rate (%)</b>, select 0 if not applicable
+                            </label>
+                            <input type="number" class="form-control" id="rate" placeholder="0.01" required="">
+                        </div>
+                        <label for="type">
+                            <b>Do you need access to your savings?</b></label>
+                            <br>
+                        <div class="typerow">
+                            <select class="form-select" id="type" aria-label="Example select with button addon"
+                                required="" size="1">
+                                <option value="Instant">I need immediate access to my savings</option>
+                                <option value="Regular">Happy to invest for over 30 days</option>
+                                <option value="Fixed">Happy to invest for less than a year</option>
+                            </select>
+                            <button type="submit" class="btn-lg contact-btn">Calculate</button>
+                        </div>
                     </div>
-                    <button type="submit" class="btn contact-btn">Calculate</button>
+                    <div class="col-6">
+                        <p>
+                            Latest rates based on what you've told us:</p>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="header">Bank</th>
+                                    <th scope="col" class="header">Current Rates</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Ulster Bank</th>
+                                    <td>TBA</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Santander</th>
+                                    <td>TBA</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Danske Bank</th>
+                                    <td colspan="2">TBA</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">AIB</th>
+                                    <td colspan="2">TBA</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
-    <!--Results / Customer Output Area-->
-    <section>
-        <div id="calculator-results">
-            <h1 class="display-5 fw-bold">
-                The latest rates:
-            </h1>
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Bank</th>
-                        <th scope="col">Current Rates</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Ulster Bank</th>
-                        <td>TBA</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Santander</th>
-                        <td>TBA</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Danske Bank</th>
-                        <td colspan="2">TBA</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">AIB</th>
-                        <td colspan="2">TBA</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
     </section>
     <!--Investing -->
