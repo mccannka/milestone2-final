@@ -43,7 +43,7 @@
     margin-top: 2em;}
 
 .table {
-    text-align: center;
+    align-items: center;
 }
 
 .table .header {
@@ -53,10 +53,9 @@
 
 /* styling for contactus option */
 
-.btn-lg {background-color: #bdb975;
+.btn-primary {background-color: #bdb975;
     border: #F0EFEB;
-    color: #fff;
-    margin-top: 2em;}
+    color: #fff;}
 
 /* styling for bootstrap footer */
 #final {
