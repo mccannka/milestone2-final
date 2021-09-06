@@ -1,35 +1,40 @@
 // Capturing form submission
+let accountDetailed = '';
+
 
 $(document).ready(function () {
     // attach the event listener
-    $('#calculator').on('submit', function (event) {
+    $('#calculate').on('submit', function (event) {
         // runs when form is submitted
         // stop the default action from happening (page reloading)
         event.preventDefault();
-    });
-}); 
- 
-//Obtain inputs to fields 
-let savingsHeld = document.getElementById ("saving-held");
-let currentRate = document.getElementById ("rate-input");
-let savingsType = document.getElementById ("type");
+        const form = event.target; 
+
+        let savingsType = form.typeSelect.value; 
+        determineType(savingsType);
+    }); 
+        
+});
+
+
+let savingsType = document.getElementById("type").value;
+
 
 // Determine which rates customer wants 
 
-function accountType(){
+function determineType(savingsType) {
 
-    if (savingsType =="Instant") 
-    {accountType = instantAccess;
+    if (savingsType == "Instant") {
+        accountDetailed = instantAccess;
 
-    } else if (savingsType == "Regular")
-    {accountType = regularAccess; 
-    
-    } else if (savingsType == "Fixed")
-    {accountType = fixedAccess;
+    } else if (savingsType == "Regular") {
+        accountDetailed = regularAccess;
+
+    } else if (savingsType == "Fixed") {
+        accountDetailed = fixedAccess;
     }
+    console.log(accountDetailed);
 }
 
-console.log("accountType");
-
-
 // Get results for each competitor  
+
