@@ -8,7 +8,7 @@ The purpose of the calculator is to ensure consumers are making the most of thei
 
 Also it will aim  to educate consumers on saving, the benefits and the alternative to saving.
 
-![alt text](https://github.com/mccannka/milestone2-final/blob/main/assets/documents/responsive-design.PNG> "Responsive View")
+<img src="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/responsive-design.PNG">
 
 
 ## Index
