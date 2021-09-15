@@ -8,9 +8,12 @@ The purpose of the calculator is to ensure consumers are making the most of thei
 
 Also it will aim  to educate consumers on saving, the benefits and the alternative to saving.
 
+![alt text](https://github.com/mccannka/milestone2-final/blob/main/assets/documents/responsive-design.PNG> "Responsive View")
+
+
 ## Index
 
-1. [UX](##ux)
+1. [UX](#UX)
     * [User Stories](##user-stories)
     * [Strategy](##strategy)
 1. [Features for Future Implementation](##features-for-future-implementation)
