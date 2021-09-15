@@ -31,10 +31,6 @@ $(document).ready(function () {
         determineType(savingsType);
     });
 
-    // TODO: Add emailjs
-    // emailjs.init("YOUR_USER_ID");
-    // https://github.com/Code-Institute-Submissions/LeagueLore
-    // https://github.com/Code-Institute-Submissions/explore-ireland/blob/master/assets/js/email.js
 });
 
 

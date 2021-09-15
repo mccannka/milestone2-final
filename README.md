@@ -10,6 +10,7 @@ Also it will aim  to educate consumers on saving, the benefits and the alternati
 
 <img src="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/responsive-design.PNG">
 
+<a href="https://mccannka.github.io/milestone2-final/">Milestone 2 Project URL</a>
 
 ## Index
 
