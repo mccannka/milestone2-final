@@ -13,12 +13,17 @@ Also it will aim  to educate consumers on saving, the benefits and the alternati
 
 ## Index
 
-1. [UX](#UX)
-    * [User Stories](##user-stories)
-    * [Strategy](##strategy)
-1. [Features for Future Implementation](##features-for-future-implementation)
-1. [Testing & Deployment](##testing-&-deployment)
-1. [Credits](##credits)
+1. [UX](#ux)
+    * [User Stories](#user-stories)
+    * [Strategy](#strategy)
+1. Features & Future Implementations
+    * [Current features](#current-features)
+    * [Future features](#future-features)
+1. Testing & Deployment
+    * [Testing](#testing)
+    * [Technology Used](#technology-used)
+    * [Deployment](#deployment)
+1. [Credits](#credits)
 
 ## UX 
 
@@ -83,6 +88,27 @@ CSS for the site has also been checked via https://jigsaw.w3.org/css-validator/v
 <br>
 The site has also been checked using Google Lighthouse, summary can be viewed <a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/lighthouse.PNG">here</a>.  Chrome Developer tools has also been used to test via a range of devices i.e. Iphone, macbook and Ipad.
 
+(1) First Time User Goal:  First Time Visitors should understand the main purpose of the company.
+
+Outcome:
+* Navigation with key customer objectives 
+* Key call to action is to calculate result
+* Ability to submit an enquiry
+
+(2) Returning visitor User Goal:  To find out the latest rates that would benefit them and understand why they should change.
+
+Outcome:
+* This is an aspect which needs to be developed as the company becomes established.  Adding detailed blog content will not only benefit returning users, but would also support growth in SEO.
+
+(3) Company ability to obtain enquiries:
+* Both email and message submitted through via EmailJS.  Initial test only had email populated, updated and retested to confirm both email and message being submitted.
+
+### Further Testing ###
+* Tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* Viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+
+Testing done to ensure that links work correctly & design is correct across a range of devices.
+
 ## Technologies Used 
 
 * <a href="https://slack.com/intl/en-gb/">Slack:</a>  Used for all communication, and researching issues faced with HTML & CSS.
@@ -98,26 +124,6 @@ The site has also been checked using Google Lighthouse, summary can be viewed <a
 * <a href="https://git-scm.com/">Git:</a>  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 * <a href="http://ami.responsivedesign.is/">Responsive Design Previews</a>  Amiresponsive was used to preview across a range of devices.
-
-
-
-(1) First Time User Goal:  First Time Visitors should understand the main purpose of the company.
-
-Outcome:
-* Navigation with key customer objectives 
-* Key call to action is to calculate result
-
-(2) Returning visitor User Goal:  To find out the latest rates that would benefit them and understand why they should change.
-
-Outcome:
-* This is an aspect which needs to be developed as the company becomes established.  Adding detailed blog content will not only benefit returning users, but would also support growth in SEO.
-
-
-### Further Testing ###
-* Tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* Viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-
-Testing done to ensure that links work correctly & design is correct across a range of devices.
 
 ## Deployment 
 
