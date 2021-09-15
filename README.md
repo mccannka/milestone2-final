@@ -78,7 +78,7 @@ To ensure the site contains valid HTML, the code was checked directly using vali
 CSS for the site has also been checked via https://jigsaw.w3.org/css-validator/validator and no errors returned.
 <br>
 <br>
-The site has also been checked using Google Lighthouse, summary can be viewed <a href="<a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/lighthouse.PNG">here</a>.  Chrome Developer tools has also been used to test via a range of devices i.e. Iphone, macbook and Ipad.
+The site has also been checked using Google Lighthouse, summary can be viewed <a href="https://github.com/mccannka/milestone2-final/blob/main/assets/documents/lighthouse.PNG">here</a>.  Chrome Developer tools has also been used to test via a range of devices i.e. Iphone, macbook and Ipad.
 
 ## Technologies Used 
 
@@ -97,18 +97,18 @@ The site has also been checked using Google Lighthouse, summary can be viewed <a
 * <a href="http://ami.responsivedesign.is/">Responsive Design Previews</a>  Amiresponsive was used to preview across a range of devices.
 
 
-1) First Time User Goal:  First Time Visitors should understand the main purpose of the company.
+
+(1) First Time User Goal:  First Time Visitors should understand the main purpose of the company.
 
 Outcome:
-* Company logo 
 * Navigation with key customer objectives 
-* Key call to action is to get in contact
+* Key call to action is to calculate result
 
-(2) Returning visitor User Goal:  To find out the latest trends that would benefit businesses to increase their online exposure.
+(2) Returning visitor User Goal:  To find out the latest rates that would benefit them and understand why they should change.
 
 Outcome:
 * This is an aspect which needs to be developed as the company becomes established.  Adding detailed blog content will not only benefit returning users, but would also support growth in SEO.
-Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+
 
 ### Further Testing ###
 * Tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
