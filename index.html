@@ -75,12 +75,12 @@
                      <label for="existing"><b>Amount of savings
                      </b>
                      </label>
-                     <input type="number" class="form-control" id="saving-held" placeholder="£100" required="">
+                     <input type="number" class="form-control" id="saving-held" placeholder="£100" min="0" step="0.10" required>
                      <div id="current-rates">
                         <label for="rate"><b>
                         Current rate (%)</b>, select 0 if not applicable
                         </label>
-                        <input type="number" class="form-control" id="rate" placeholder="0.01" required="">
+                        <input type="number" class="form-control" id="rate" placeholder="0.01" min="0" step="0.01" required>
                      </div>
                      <label for="type">
                      <b>Do you need access to your savings?</b></label>
@@ -205,7 +205,7 @@
         </div>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"
          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="assets/js/selectrates.js"></script>
+      <script src="assets/js/constants.js"></script>
       <script src="assets/js/calc.js"></script>
    </body>
 </html>
