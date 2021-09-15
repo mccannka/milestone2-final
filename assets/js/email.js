@@ -14,10 +14,10 @@ document.getElementById('form')
 
     emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
-        btn.value = 'Send Email';
+        btn.value = 'Contact me';
         alert('Sent!');
       }, (err) => {
-        btn.value = 'Send Email';
+        btn.value = 'Contact me';
         alert(JSON.stringify(err));
       });
   });
